@@ -1,5 +1,7 @@
 #include <iostream>
-#include "Agenda.h"
+
+#define MAX_CONTACTOS 3
+#include "agenda.h"
 
 
 

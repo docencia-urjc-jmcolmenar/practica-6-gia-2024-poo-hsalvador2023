@@ -15,19 +15,12 @@ enum tipoContacto{
 
 //luego en el main.c ponemos persona nombreQueSea;
 //Creamos la clase persona
-class PERSONA {
+class Persona {
     char nombre[MAX];
     char apellido[MAX];
     int edad;
     tipoContacto tipo;
 };
-
-//Creamos la clase agenda
-class AGENDA {
-    PERSONA persona;
-    int numPersona[MAX];
-};
-
 
 
 
